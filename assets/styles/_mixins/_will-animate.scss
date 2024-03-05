@@ -1,0 +1,13 @@
+// Gsap trans-in defaults
+@mixin will-animate($transform: true, $opacity: true) {
+  @include js-only {
+    @if $opacity == true {
+      opacity: 0;
+    }
+    @if $transform == true {
+      will-change: opacity, transform;
+    } @else {
+      will-change: opacity;
+    }
+  }
+}

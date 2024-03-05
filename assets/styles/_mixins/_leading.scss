@@ -1,0 +1,30 @@
+@mixin leading-none() {
+  line-height: $leading-none;
+}
+@mixin leading-miny() {
+  line-height: $leading-miny;
+}
+@mixin leading-min() {
+  line-height: $leading-min;
+}
+@mixin leading-tinier() {
+  line-height: $leading-tinier;
+}
+@mixin leading-tiny() {
+  line-height: $leading-tiny;
+}
+@mixin leading-tight() {
+  line-height: $leading-tight;
+}
+@mixin leading-snug() {
+  line-height: $leading-snug;
+}
+@mixin leading-normal() {
+  line-height: $leading-normal;
+}
+@mixin leading-relaxed() {
+  line-height: $leading-relaxed;
+}
+@mixin leading-loose() {
+  line-height: $leading-loose;
+}

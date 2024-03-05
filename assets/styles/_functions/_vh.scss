@@ -1,0 +1,6 @@
+@use 'sass:math';
+
+@function vh($value, $vh-viewport) {
+  $vh-context: strip-unit($vh-viewport) * 0.01 * 1px;
+  @return math.div($value, $vh-context) * 1vh;
+}

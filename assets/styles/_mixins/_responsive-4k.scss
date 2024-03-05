@@ -1,0 +1,31 @@
+@mixin responsive-4k(
+  $property: font-size,
+  $min: 0,
+  $max: 0,
+  $screen-min: $min-360,
+  $screen-max: 3840px,
+  $unit: px
+) {
+  $s-min: strip-unit($min);
+  $s-max: strip-unit($max) * 2;
+  $s-screen-min: strip-unit($screen-min);
+  $s-screen-max: strip-unit($screen-max);
+
+  #{$property}: #{$s-min}#{$unit};
+
+  @media only screen and (min-width: #{$s-screen-min}px) {
+    #{$property}: calc(
+      #{$s-min}#{$unit} + #{($s-max - $s-min)} * (
+          100vw - #{$s-screen-min}#{$unit}
+        ) / (#{$s-screen-max} - #{$s-screen-min})
+    );
+  }
+
+  @media only screen and (min-width: #{$s-screen-max}px) {
+    #{$property}: #{$s-max}#{$unit};
+  }
+}
+
+@mixin rp-4k($args...) {
+  @include responsive-property-4k($args...);
+}

@@ -1,0 +1,40 @@
+name: 🚀 Deploy website on push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'yarn'
+      - name: Install front dependencies
+        run: yarn install
+
+      - name: Build front
+        run: yarn generate-ftp
+
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: 176.62.167.92
+          username: dinnerintheskybe@dinnerinthesky.fr
+          password: ${{secrets.FTP_PASSWORD}}
+          # Folder to upload from, must end with trailing slash /
+          local-dir: dist2/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: dist2/
+

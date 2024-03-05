@@ -1,0 +1,103 @@
+@mixin font-size($value) {
+  font-size: $value * 0.1rem;
+}
+
+@mixin font-size-11 {
+  @include responsive-font(0.7vw, 11px);
+  // font-size: 0.7vw;
+}
+
+@mixin font-size-12 {
+  @include responsive-font(0.75vw, 12px);
+  // font-size: 0.75vw;
+}
+
+@mixin font-size-13 {
+  @include responsive-font(0.8vw, 13px);
+  // font-size: 0.8vw;
+}
+
+@mixin font-size-14 {
+  @include responsive-font(0.85vw, 14px);
+  // font-size: 0.85vw;
+}
+
+@mixin font-size-15 {
+  @include responsive-font(0.9vw, 15px);
+  // font-size: 0.9vw;
+}
+
+@mixin font-size-16 {
+  @include responsive-font(1vw, 16px);
+  // font-size: 1vw;
+}
+
+@mixin font-size-17 {
+  @include responsive-font(1.05vw, 17px);
+  // font-size: 1.05vw;
+}
+
+@mixin font-size-18 {
+  @include responsive-font(1.1vw, 18px);
+  // font-size: 1.05vw;
+}
+
+@mixin font-size-20 {
+  @include responsive-font(1.2vw, 20px);
+  // font-size: 1.2vw;
+}
+
+@mixin font-size-21 {
+  @include responsive-font(1.3vw, 21px);
+  // font-size: 1.3vw;
+}
+
+@mixin font-size-22 {
+  @include responsive-font(1.4vw, 22px);
+  // font-size: 1.4vw;
+}
+
+@mixin font-size-24 {
+  @include responsive-font(1.5vw, 24px);
+  // font-size: 1.5vw;
+}
+
+@mixin font-size-26 {
+  @include responsive-font(1.6vw, 24px);
+  // font-size: 1.6vw;
+}
+
+@mixin font-size-28 {
+  @include responsive-font(1.7vw, 24px);
+  // font-size: 1.7vw;
+}
+
+@mixin font-size-30 {
+  @include responsive-font(1.85vw, 24px);
+  // font-size: 1.85vw;
+}
+
+@mixin font-size-32 {
+  @include responsive-font(1.95vw, 24px);
+  // font-size: 1.95vw;
+}
+
+@mixin font-size-36 {
+  @include responsive-font(2.1vw, 25px);
+  // font-size: 1.95vw;
+}
+
+@mixin font-size-40 {
+  @include responsive-font(2.4vw, 26px);
+  // font-size: 2.4vw;
+}
+
+@mixin font-size-52 {
+  @include responsive-font(3vw, 28px);
+  // font-size: 3vw;
+}
+
+@mixin font-size-72 {
+  @include responsive-font(4.5vw, 42px);
+  // font-size: 4.3vw;
+}

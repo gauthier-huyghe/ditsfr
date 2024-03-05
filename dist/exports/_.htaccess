@@ -1,0 +1,4 @@
+AuthName "Page d'administration prot\xE9g\xE9e"
+AuthType Basic
+AuthUserFile "/home/clients/613242d22aa01d8ce88b4339943726a5/ditsfr/exports/.htpasswd"
+Require valid-user

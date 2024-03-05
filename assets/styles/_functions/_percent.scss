@@ -1,0 +1,7 @@
+@use 'sass:math';
+
+@function percent($value, $screen-size) {
+  $num-value: strip-unit($value);
+  $num-screen: strip-unit($screen-size);
+  @return math.div(100, $screen-size) * $value * 1%;
+}

@@ -1,0 +1,19 @@
+@mixin responsive-font(
+  $mob: 0,
+  $max: 0,
+  $screen-lg-min: $min-1080,
+  $screen-lg-max: $max-1660,
+  $unit: px
+) {
+  @include md-down {
+    font-size: #{$mob}#{$unit};
+  }
+  @include lg-up {
+    $min: $max * 0.75;
+    @include rp(font-size, $min, $max, $screen-lg-min, $screen-lg-max, $unit);
+  }
+}
+
+@mixin rf($args...) {
+  @include responsive-font($args...);
+}

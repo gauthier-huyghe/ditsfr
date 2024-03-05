@@ -1,0 +1,39 @@
+@mixin font-hairline {
+  font-weight: $font-hairline;
+}
+
+@mixin font-thin {
+  font-weight: $font-thin;
+}
+
+@mixin font-light {
+  font-weight: $font-light;
+}
+
+@mixin font-normal {
+  font-weight: $font-normal;
+}
+
+@mixin font-regular {
+  font-weight: $font-normal;
+}
+
+@mixin font-medium {
+  font-weight: $font-medium;
+}
+
+@mixin font-semibold {
+  font-weight: $font-semibold;
+}
+
+@mixin font-bold {
+  font-weight: $font-bold;
+}
+
+@mixin font-extrabold {
+  font-weight: $font-extrabold;
+}
+
+@mixin font-black {
+  font-weight: $font-black;
+}

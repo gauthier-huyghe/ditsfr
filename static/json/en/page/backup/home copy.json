@@ -1,0 +1,171 @@
+{
+  "metas": {
+    "title": "Website | Home",
+    "description": "Website | Homepage decription",
+    "image": "https:\/\/dummyimage.com\/1200x627"
+  },
+  "blocks": [
+    {
+      "type": "hero_home",
+      "content": {
+        "id": "home",
+        "tagline": "June 2023",
+        "title": "Dinning with<br\/><strong>the stars<\/strong>",
+        "image": "\/img\/DITS-2022-Waterloo.png",
+        "text": "<p>Soyez les premiers \u00e0 \u00eatre inform\u00e9s<br\/>de l'ouverture des r\u00e9servations !",
+        "cta": {
+          "text": "Je m'inscris",
+          "route": "#suscribe"
+        }
+      }
+    },
+    {
+      "type": "images_text",
+      "content": {
+        "id": "dits_2_0",
+        "title": "This new generation of Dinner in the Sky tables",
+        "tagline": "DITS 2.0",
+        "text": "<p>Cette nouvelle g\u00e9n\u00e9ration de table Dinner in the Sky d\u00e9j\u00e0 pr\u00e9sente \u00e0 Kuala Lumpur, Riyad et Singapore va enfin devenir accessible au public belge en 2022.<br\/><br\/>\n          DITS 2.0, c\u2019est une cuisine centrale plus grande et a\u00e9r\u00e9e permettant aux Chefs d\u2019avoir un contact direct avec l\u2019ensemble des invit\u00e9s. <br\/>\n          Mais aussi 8 tables de 4 personnes install\u00e9es tout autour de la cuisine ouverte permettant d\u2019accueillir 32 invit\u00e9s avec une intimit\u00e9 plus grande.<br\/>\n          Les r\u00e9servations peuvent se faire d\u00e8s \u00e0 pr\u00e9sent pour 2 ou 4 personnes.\n          <\/p>\n          <p>Pour les entreprises, plus besoin de privatiser la structure compl\u00e8te pour vos relations d\u2019affaires.<br\/>\n          Vous pouvez privatiser une, deux, trois ou\u2026 tables de 4 personnes ou d\u00e9cider de privatiser les 8 tables, soit 32 places pour un moment tout \u00e0 fait magique.<\/p>\n          <p>Dinner in the Sky prendra possession dans le ciel de Belgique et accueillera derri\u00e8re ses fourneaux les plus belles toques Belges.<\/p>\n          <p>Chaque jour les chefs r\u00e9galeront les 32 convives pour un d\u00e9jeuner et deux d\u00eeners extra-ordinaires dans le ciel \u00e9toil\u00e9 de Belgique.<\/p>\n          <p>L\u2019\u00e9v\u00e9nement se d\u00e9roulera en juin 2023.<\/p>\n        ",
+        "images": [
+          "\/img\/gallery\/JJ5_7049.jpg",
+          "\/img\/gallery\/JJ5_6389.jpg",
+          "\/img\/gallery\/JJ5_6186.jpg"
+        ]
+      }
+    },
+    {
+      "type": "cocktails",
+      "content": {
+        "id": "cocktails",
+        "tagline": "Cocktails",
+        "image_left": true,
+        "title": "Enjoy a cocktails in the sky experience at 50 meters high.",
+        "text": "<p>Vivez une expérience <strong>Cocktails in the Sky</strong> à 50 mètres de hauteur.</p><p>Vous dégusterez <strong>3 Cocktails différents</strong> qui seront accompagnés de<br/><strong>mises en bouche</strong> afin d’éveiller vos papilles.</p><p>Uniquement le <strong>samedi</strong> et le <strong>dimanche</strong> à <strong>15H30</strong> au prix de <strong>150€</strong> tout compris.</p>",
+        "link": "https://www.gritbeverages.be",
+        "list": [
+          {
+            "name": "<strong>Daiquiri</strong><br/>with Don Papa Masskara",
+            "image": "/img/don-papa.png"
+          },
+          {
+            "name": "<strong>Basil Smash</strong><br/>with Gin Mare",
+            "image": "/img/gin-marre.png"
+          },
+          {
+            "name": "<strong>Vodka Martini</strong><br/>with Elit",
+            "image": "/img/elit.png"
+          }
+        ],
+        "book": {
+          "url": "https://shop.utick.be/?module=ACTIVITYSERIEDETAILS&pos=DINNERINTHESKY&s=08CD7219-EDA4-34C4-5219-8ECD6939CA42&lg=fr",
+          "text": "Cliquez ici pour réserver"
+        }
+      }
+    },
+    {
+      "type": "chefs",
+      "content": {
+        "id": "chefs",
+        "tagline": "The chefs",
+        "title": "Our team of talented and experienced chefs",
+        "text": ""
+      }
+    },
+    {
+      "type": "menus",
+      "content": {
+        "id": "menus",
+        "tagline": "The Menu",
+        "title": "5-course gourmet menus prepared and served by the chefs themselves.",
+        "text": "<p>Enjoy a Cocktails in the Sky experience at 50 meters high. You will taste 3 different Cocktails which will be accompanied by appetizers to awaken your taste buds.</p>",
+        "menu": {
+          "title": "Karen <strong>Torosyan</strong>",
+          "text": "Bozar Restaurant* in 2021",
+          "image": {
+            "thumb": "/img/210621-Suzuki-TOROSYAN-96x-Small.png",
+            "large": "/img/210621-Suzuki-TOROSYAN-96x.png"
+          }
+        }
+      }
+    },
+    {
+      "type": "booking",
+      "content": {
+        "id": "booking",
+        "tagline": "Booking",
+        "title": "Book now your experience",
+        "text": "<p>Be the first to know when reservations open by filling out the form</p>",
+        "image": "/img/booking.png"
+      }
+    },
+    {
+      "type": "gallery",
+      "content": {
+        "id": "media",
+        "tagline": "",
+        "title": "Media Gallery",
+        "text": "",
+        "gallery": [
+          {
+            "type": "youtube",
+            "src": "HP7WkldQFEM",
+            "title": "Brussels - 2022"
+          },
+          { "type": "photo", "src": "JJ5_6402.jpg" },
+          { "type": "photo", "src": "JJ5_6186.jpg" },
+          { "type": "photo", "src": "JJ5_8712.jpg" },
+          { "type": "photo", "src": "JJ5_6389.jpg" },
+          { "type": "photo", "src": "JJ5_6391.jpg" },
+          { "type": "photo", "src": "JJ5_6823.jpg" },
+          {
+            "type": "youtube",
+            "src": "j5dmi2xwIU8",
+            "title": "Alden-Biesen - 2022"
+          },
+          { "type": "photo", "src": "JJ5_6856.jpg" },
+          { "type": "photo", "src": "JJ5_6997.jpg" },
+          { "type": "photo", "src": "JJ5_7049.jpg" },
+          { "type": "photo", "src": "JJ5_7062.jpg" },
+          { "type": "photo", "src": "JJ5_7080.jpg" },
+          { "type": "photo", "src": "JJ5_7244.jpg" },
+          { "type": "photo", "src": "JJ5_7813.jpg" },
+          { "type": "photo", "src": "JJ5_7843.jpg" },
+          { "type": "photo", "src": "JJ5_7967.jpg" },
+          { "type": "photo", "src": "JJ5_7988.jpg" },
+          {
+            "type": "facebook",
+            "src": "335026297234738",
+            "title": "AFTERMOVIE - Brussels 2018"
+          },
+          { "type": "photo", "src": "JJ5_7995.jpg" },
+          { "type": "photo", "src": "JJ5_8018.jpg" },
+          { "type": "photo", "src": "JJ5_8121.jpg" },
+          { "type": "photo", "src": "JJ5_8150.jpg" },
+          {
+            "type": "facebook",
+            "src": "1985261428361189",
+            "title": "Dinner in the Sky - 2018"
+          },
+          { "type": "photo", "src": "JJ5_8153.jpg" },
+          { "type": "photo", "src": "JJ5_8313.jpg" },
+          { "type": "photo", "src": "JJ5_8350.jpg" },
+          { "type": "photo", "src": "JJ8_7715.jpg" },
+          {
+            "type": "youtube",
+            "src": "dW8LU2bz8Ew",
+            "title": "10 Years Anniversary 2016"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "id": "test3",
+        "tagline": "Affirmation Test 3",
+        "title": "An incredible value",
+        "text": "<p><strong>Fugiat non aute dolor qui officia. Duis in qui officia cillum anim in ullamco magna est pariatur nulla. Aliqua ad anim consectetur anim labore mollit culpa nisi nulla eu consectetur labore incididunt irure. Velit ullamco irure dolore laboris amet irure incididunt commodo esse eu amet eu quis. Voluptate sit consequat tempor aute id aliqua sint enim anim ullamco proident. Officia aliqua do quis esse nostrud. In veniam do deserunt ea fugiat ad labore excepteur irure cillum nisi pariatur. Nulla magna esse nisi exercitation nostrud sint enim nostrud Lorem do occaecat duis magna. Quis amet aliqua elit velit mollit quis laboris ad ea dolore. Irure officia voluptate ut elit.<\/strong><\/p><p><\/p><p>Laborum minim veniam pariatur. Exercitation dolor pariatur tempor nulla adipisicing nulla. Enim dolore culpa laboris eu dolore. Cupidatat esse amet culpa anim. Ut ad incididunt nisi laboris pariatur irure occaecat duis aliqua non nulla qui consectetur fugiat. Lorem est amet ipsum cillum do id amet id anim nisi quis sint enim. Occaecat id commodo nulla non excepteur exercitation occaecat ut cillum in exercitation duis proident amet Lorem. Nostrud aliqua enim velit tempor irure reprehenderit Lorem sunt. Fugiat consectetur anim nostrud voluptate officia sint dolor. Eiusmod officia deserunt nulla.<\/p>"
+      }
+    }
+  ]
+}

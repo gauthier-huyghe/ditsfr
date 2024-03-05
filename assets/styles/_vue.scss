@@ -1,0 +1,116 @@
+[v-cloak] {
+  display: none;
+}
+
+// Vue Js Transition/Animation Durations
+
+$times: 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300,
+  1400, 1500, 1600, 1700, 1800, 1900, 2000;
+
+@each $time in $times {
+  .delay-transition-#{$time} {
+    transition-delay: #{$time}ms;
+  }
+  .delay-animation-#{$time} {
+    animation-delay: #{$time}ms;
+  }
+  .duration-animation-#{$time} {
+    animation-duration: #{$time}ms;
+  }
+}
+
+// Vue Notifications
+
+.vue-notification-wrapper {
+  overflow: visible !important;
+}
+
+.vue-notification-group {
+  @include lg-up {
+    width: 60rem !important;
+  }
+  @include md-down {
+    width: 90% !important;
+  }
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.notification {
+  @include shadow-hard;
+  @include rf(16, 16);
+
+  margin: 3rem 0;
+  padding: 3rem 4rem;
+  overflow: hidden;
+  border-bottom-right-radius: 3rem;
+
+  border-top: 5px solid $primary;
+
+  .notification-title {
+    @include rf(22, 22);
+
+    margin-bottom: 1rem;
+  }
+
+  .notification-content {
+    @include rf(18, 18);
+  }
+
+  &.warn {
+    border-top: 5px solid $warning;
+  }
+
+  &.error {
+    border-top: 5px solid $alert;
+  }
+
+  &.success {
+    border-top: 5px solid $color-blue-medium;
+  }
+}
+
+.app .swiper-lazy-preloader {
+  // border: 5px solid var(--color-secondary);
+}
+
+// VUE GALLERY
+
+.blueimp-gallery {
+  z-index: 1000;
+  background-color: rgba($fg, 0.9) !important;
+
+  .slide-content {
+    max-height: 90vh !important;
+    max-width: 80vw !important;
+    // width: $grid-width !important;
+  }
+  .prev,
+  .next {
+    // display: grid !important;
+    place-items: center;
+    opacity: 1;
+    text-shadow: none;
+    outline: none;
+    border: none !important;
+  }
+  .close {
+    right: 3rem !important;
+    top: 3rem !important;
+  }
+  .prev,
+  .next,
+  .close {
+    @include flex-center-center;
+    display: flex !important;
+    background: rgba(0,0,0,.5);
+    border-radius: 10rem;
+
+    svg {
+      @include flex-initial;
+      display: block;
+      --icon-size: 2rem;
+      pointer-events: none;
+    }
+  }
+}

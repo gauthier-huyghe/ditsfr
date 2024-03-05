@@ -1,0 +1,6 @@
+@mixin container($value: 100%) {
+  width: 100%;
+  height: 100%;
+  max-width: $value;
+  margin: 0 auto;
+}

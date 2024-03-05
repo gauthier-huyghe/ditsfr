@@ -1,0 +1,4 @@
+name: ditsfr2024
+recipe: lamp
+config:
+  webroot: dist

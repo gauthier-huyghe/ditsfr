@@ -1,0 +1,33 @@
+@mixin underline-hover(
+  $color: white,
+  $size: 1px,
+  $bottom: 1.2rem,
+  $left: 1rem,
+  $direction: left
+) {
+  position: relative;
+
+  &::after {
+    transition: transform 0.5s $ease-in-out-circ;
+    content: '';
+    display: block;
+    height: $size;
+    width: calc(100% - #{$left * 2});
+    position: absolute;
+    bottom: $bottom;
+    left: $left;
+    background-color: $color;
+    transform: scaleX(0);
+    transform-origin: $direction center;
+  }
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active,
+  &.nuxt-link-exact-active {
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}

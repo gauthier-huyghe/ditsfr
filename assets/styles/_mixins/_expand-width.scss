@@ -1,0 +1,5 @@
+@mixin expand-width($distance) {
+  width: calc(100% + #{$distance});
+  margin-left: -$distance * 0.5;
+  margin-right: -$distance * 0.5;
+}

@@ -1,0 +1,152 @@
+@mixin wysiwyg() {
+  @include rf(16, 16);
+
+  text-align: left;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include font-normal;
+
+    line-height: $leading-min;
+    margin-top: 0;
+    color: inherit;
+  }
+
+  h1 {
+    @include rf(25, 36);
+
+    letter-spacing: $letter-normal;
+    margin-bottom: 0.6em;
+  }
+
+  h2 {
+    @include rf(22, 32);
+
+    letter-spacing: $letter-normal;
+    margin-bottom: 0.8em;
+  }
+
+  h3 {
+    @include rf(20, 28);
+
+    letter-spacing: $letter-normal;
+    margin-bottom: 1em;
+  }
+
+  h4 {
+    @include rf(19, 20);
+
+    margin-bottom: 1.1em;
+  }
+
+  h5 {
+    @include rf(18, 19);
+
+    margin-bottom: 1.2em;
+  }
+
+  h6 {
+    @include rf(17, 18);
+
+    margin-bottom: 1.3em;
+  }
+
+  p,
+  ul,
+  ol {
+    @include font-light;
+
+    color: inherit;
+    font-size: 1em;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1.6em;
+    line-height: 1.4;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    @include font-light;
+
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+
+  strong {
+    @include font-bold;
+
+    color: inherit;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      position: relative;
+      padding-left: 1.5em;
+
+      // padding: 0 0 0 1.5em;
+
+      &::before {
+        @include size(0.7rem);
+        @include rounded-full;
+
+        content: '';
+        border: 1px solid var(--color-primary);
+        position: absolute;
+        left: 0;
+        top: 0.35em;
+        display: block;
+      }
+    }
+
+    ul li {
+      padding-left: 1.2em;
+
+      &::before {
+        @include size(0.6rem);
+        top: 0.37em;
+      }
+    }
+  }
+
+  ol {
+    list-style-type: numeric;
+    padding: 0 0 0 2em;
+  }
+
+  ul,
+  ol {
+    margin: 0 0 2em 0;
+    line-height: 1.2;
+
+    li:not(:last-of-type) {
+      margin: 0 0 0.8em 0;
+    }
+
+    ul,
+    ol,
+    ul:last-child,
+    ol:last-child {
+      margin-top: 0.6em;
+      font-size: 0.9em;
+
+      li:not(:last-of-type) {
+        margin: 0 0 0.4em 0;
+      }
+    }
+  }
+
+  ul:last-child {
+    margin: 0;
+  }
+}

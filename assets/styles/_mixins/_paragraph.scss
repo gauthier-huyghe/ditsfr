@@ -1,0 +1,12 @@
+@mixin paragraph {
+  position: relative;
+
+  &__inner {
+    @include md-down {
+      @include padding-y(4rem);
+    }
+    @include lg-up {
+      @include padding-y(6rem);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+export const VEE_VALIDATE_RULES = [
+  'required',
+  'email',
+  'phone',
+  'regex',
+  'confirmed',
+  'integer',
+  'min',
+  'min_value',
+  'max_value',
+  'zipcode',
+  'date',
+  'quantity_by_100',
+  'quantity_min',
+  'vat',
+]

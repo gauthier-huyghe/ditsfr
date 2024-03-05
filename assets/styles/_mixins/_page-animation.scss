@@ -1,0 +1,20 @@
+@mixin page-animation() {
+  .page-enter-active,
+  .page-leave-active {
+    transition-property: opacity, transform;
+    transition-duration: 0.4s;
+  }
+
+  .page-enter-active {
+    transition-timing-function: $ease-out-quad;
+  }
+
+  .page-leave-active {
+    transition-timing-function: $ease-in-quad;
+  }
+
+  .page-enter,
+  .page-leave-to {
+    opacity: 0;
+  }
+}

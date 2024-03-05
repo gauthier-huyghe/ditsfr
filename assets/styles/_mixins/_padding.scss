@@ -1,0 +1,26 @@
+@mixin padding($value) {
+  padding-top: $value;
+  padding-right: $value;
+  padding-bottom: $value;
+  padding-left: $value;
+}
+
+@mixin padding-x($left, $right: false) {
+  @if $right {
+    padding-left: $left;
+    padding-right: $right;
+  } @else {
+    padding-left: $left;
+    padding-right: $left;
+  }
+}
+
+@mixin padding-y($top, $bottom: false) {
+  @if $bottom {
+    padding-top: $top;
+    padding-bottom: $bottom;
+  } @else {
+    padding-top: $top;
+    padding-bottom: $top;
+  }
+}

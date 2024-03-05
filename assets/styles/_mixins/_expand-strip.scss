@@ -1,0 +1,31 @@
+@mixin expand-strip($side: 'left') {
+  &::after {
+    @include bg-foreground;
+    @include center-abs(vertical);
+    @include sm {
+      left: -$gutter-sm;
+    }
+    @include md {
+      left: -$gutter-md;
+    }
+    @include md-down {
+      width: 100vw;
+    }
+    @include lg-up {
+      width: 50vw;
+      @if $side == 'left' {
+        left: 50%;
+        transform: translateX(-100%) translateY(-50%);
+      }
+      @if $side == 'right' {
+        right: 0;
+      }
+    }
+
+    content: '';
+    display: block;
+    height: 45%;
+    top: 50%;
+    z-index: 0;
+  }
+}

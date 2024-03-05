@@ -1,0 +1,60 @@
+:root {
+  // Main colors
+  --color-primary: #{$primary};
+  --color-secondary: #{$secondary};
+  --color-neutral: #{$neutral};
+
+  --color-blue-light: #{$color-blue-light};
+  --color-blue-medium: #{$color-blue-medium};
+  --color-blue-dark: #{$color-blue-dark};
+  --color-green: #{$color-green};
+  --color-orange: #{$color-orange};
+  --color-pink: #{$color-pink};
+  --color-purple: #{$color-purple};
+  --color-red: #{$color-red};
+  --color-yellow: #{$color-yellow};
+
+  --bg-body: #{$background-body};
+  --bg: #{$background};
+  --bg-alt: #{$foreground};
+  --color-font: #{$font};
+  --color-font-alt: #{$font-alt};
+  --color-font-alt: #{$font-alt};
+  --border: #{$border};
+  --fg: #{$fg};
+
+  // Field status colors
+  --color-success: #{$success};
+  --color-warning: #{$warning};
+  --color-alert: #{$alert};
+
+  // LAYOUT
+
+
+  @include sm {
+    --gutter: 2rem;
+  }
+  @include md {
+    --gutter: 6vw;
+  }
+  @include md-down {
+    --header-top: 0rem;
+    --header-main: 8rem;
+    --blocks-gap: 8rem;
+    --overlap-offset: -3.5rem;
+    --global-radius: 4rem;
+    --global-radius-minus: -4rem;
+  }
+  @include lg-up {
+    --gutter: 5rem;
+    --header-top: 7rem;
+    --header-main: 8rem;
+    --blocks-gap: 8rem;
+    --overlap-offset: -7rem;
+    --global-radius: 10rem;
+    --global-radius-minus: -10rem;
+  }
+
+  --header-height: var(--header-main); // calc(var(--header-top) + var(--header-main));
+  --header-margin: var(--header-height);
+}

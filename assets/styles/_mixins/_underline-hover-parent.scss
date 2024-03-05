@@ -1,0 +1,35 @@
+@mixin underline-hover-parent(
+  $direction: left,
+  $color: white,
+  $size: 1px,
+  $child: ''
+) {
+  #{$child} {
+    position: relative;
+
+    &::after {
+      transition: transform 0.5s $ease-in-out-circ;
+      content: '';
+      display: block;
+      height: $size;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: $color;
+      transform: scaleX(0);
+      transform-origin: $direction center;
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.is-active {
+    #{$child} {
+      &::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

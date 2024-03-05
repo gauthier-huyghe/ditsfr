@@ -1,0 +1,63 @@
+@mixin text-color($color) {
+  color: $color;
+}
+@mixin text-transparent {
+  color: transparent;
+}
+@mixin text-black {
+  color: var(--color-black);
+}
+@mixin text-white {
+  color: var(--color-white);
+}
+@mixin text-font {
+  color: var(--color-font);
+}
+@mixin text-font-light {
+  color: var(--color-font-light);
+}
+@mixin text-font-alt {
+  color: var(--color-font-alt);
+}
+@mixin text-background {
+  color: var(--color-background);
+}
+@mixin text-placeholder {
+  color: var(--color-placeholder);
+}
+@mixin text-primary {
+  color: var(--color-primary);
+}
+@mixin text-secondary {
+  color: var(--color-secondary);
+}
+@mixin text-tertiary {
+  color: var(--color-tertiary);
+}
+@mixin text-success {
+  color: var(--color-success);
+}
+@mixin text-warning {
+  color: var(--color-warning);
+}
+@mixin text-alert {
+  color: var(--color-alert);
+}
+@mixin text-facebook {
+  color: $facebook;
+}
+@mixin text-twitter {
+  color: $twitter;
+}
+@mixin text-linkedin {
+  color: $linkedin;
+}
+@mixin text-instagram {
+  color: $instagram;
+}
+@mixin text-dribbble {
+  color: $dribbble;
+}
+@mixin text-medium {
+  color: $medium;
+}

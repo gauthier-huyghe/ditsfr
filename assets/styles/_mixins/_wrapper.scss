@@ -1,0 +1,3 @@
+@mixin wrapper {
+  @include container($page-max);
+}

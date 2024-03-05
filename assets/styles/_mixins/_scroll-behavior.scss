@@ -1,0 +1,5 @@
+@mixin scroll-behavior {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  touch-action: none;
+}

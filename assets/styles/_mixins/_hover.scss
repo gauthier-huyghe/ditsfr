@@ -1,0 +1,14 @@
+@mixin hover($focus: true) {
+  @if $focus {
+    &:not(:disabled).active,
+    &:not(:disabled):hover,
+    &:not(:disabled):focus {
+      @content;
+    }
+  } @else {
+    &:not(:disabled).active,
+    &:not(:disabled):hover {
+      @content;
+    }
+  }
+}

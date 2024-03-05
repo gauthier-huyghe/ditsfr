@@ -1,0 +1,15 @@
+@mixin block {
+  display: block;
+}
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin inline-block {
+  display: inline-block;
+}
+
+@mixin inline-flex {
+  display: inline-flex;
+}

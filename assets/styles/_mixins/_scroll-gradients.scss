@@ -1,0 +1,23 @@
+@mixin scroll-gradients($color, $height: 30px) {
+  position: relative;
+
+  &::before,
+  &::after {
+    @include lg-up {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+      display: block;
+      width: 100%;
+      height: $height;
+      background-image: easing-gradient($color);
+    }
+  }
+
+  &::before {
+    transform: rotate(180deg);
+    top: 0;
+  }
+}

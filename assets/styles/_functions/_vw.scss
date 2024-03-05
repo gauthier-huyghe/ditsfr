@@ -1,0 +1,6 @@
+@use 'sass:math';
+
+@function vw($value, $vw-viewport) {
+  $vw-context: strip-unit($vw-viewport) * 0.01 * 1px;
+  @return math.div($value, $vw-context) * 1vw;
+}

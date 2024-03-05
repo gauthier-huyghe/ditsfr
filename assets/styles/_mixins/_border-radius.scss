@@ -1,0 +1,51 @@
+@mixin rounded-none() {
+  border-radius: 0;
+}
+
+@mixin rounded-tiny() {
+  border-radius: $rounded-tiny;
+}
+
+@mixin rounded-sm() {
+  border-radius: $rounded-sm;
+}
+
+@mixin rounded-md() {
+  border-radius: $rounded-md;
+}
+
+@mixin rounded-lg() {
+  border-radius: $rounded-lg;
+}
+
+@mixin rounded-xl() {
+  border-radius: $rounded-xl;
+}
+
+@mixin rounded-full() {
+  border-radius: $rounded-full;
+}
+
+@mixin rounded($value: $rounded-default) {
+  border-radius: $value;
+}
+
+@mixin rounded-top($value: $rounded-default) {
+  border-top-left-radius: $value;
+  border-top-right-radius: $value;
+}
+
+@mixin rounded-bottom($value: $rounded-default) {
+  border-bottom-left-radius: $value;
+  border-bottom-right-radius: $value;
+}
+
+@mixin rounded-left($value: $rounded-default) {
+  border-top-left-radius: $value;
+  border-bottom-left-radius: $value;
+}
+
+@mixin rounded-right($value: $rounded-default) {
+  border-top-right-radius: $value;
+  border-bottom-right-radius: $value;
+}

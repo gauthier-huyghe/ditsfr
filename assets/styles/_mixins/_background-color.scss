@@ -1,0 +1,115 @@
+@mixin bg($color) {
+  background-color: $color;
+}
+
+@mixin bg-none {
+  background: none;
+}
+
+@mixin bg-transparent {
+  background-color: transparent;
+}
+
+@mixin bg-black {
+  background-color: var(--color-black);
+}
+
+@mixin bg-white {
+  background-color: var(--color-white);
+}
+
+@mixin bg-font {
+  background-color: var(--color-font);
+}
+
+@mixin bg-font-alt {
+  background-color: var(--color-font-alt);
+}
+
+@mixin bg-background {
+  background-color: var(--bg);
+}
+
+@mixin bg-foreground {
+  background-color: var(--fg);
+}
+
+@mixin bg-primary {
+  background-color: var(--color-primary);
+}
+
+@mixin bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+@mixin bg-success {
+  background-color: var(--color-success);
+}
+
+@mixin bg-warning {
+  background-color: var(--color-warning);
+}
+
+@mixin bg-alert {
+  background-color: var(--color-alert);
+}
+
+@mixin bg-facebook {
+  background-color: $facebook;
+}
+
+@mixin bg-twitter {
+  background-color: $twitter;
+}
+
+@mixin bg-linkedin {
+  background-color: $linkedin;
+}
+
+@mixin bg-instagram {
+  background-color: $instagram;
+}
+
+@mixin bg-dribbble {
+  background-color: $dribbble;
+}
+
+@mixin bg-medium {
+  background-color: $medium;
+}
+
+@mixin bg-gray-100 {
+  background-color: $gray-100;
+}
+
+@mixin bg-gray-200 {
+  background-color: $gray-200;
+}
+
+@mixin bg-gray-300 {
+  background-color: $gray-300;
+}
+
+@mixin bg-gray-400 {
+  background-color: $gray-400;
+}
+
+@mixin bg-gray-500 {
+  background-color: $gray-500;
+}
+
+@mixin bg-gray-600 {
+  background-color: $gray-600;
+}
+
+@mixin bg-gray-700 {
+  background-color: $gray-700;
+}
+
+@mixin bg-gray-800 {
+  background-color: $gray-800;
+}
+
+@mixin bg-gray-900 {
+  background-color: $gray-900;
+}

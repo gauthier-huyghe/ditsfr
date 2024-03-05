@@ -1,0 +1,8 @@
+<svg width="150" height="156" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(6 6)" fill="none" fill-rule="evenodd">
+    <ellipse fill="currentColor" cx="57.237" cy="144.862" rx="49.625" ry="5.138" />
+    <path
+      d="M97.412 97.258L138 137.782m-24.353-81.048c0 31.333-25.44 56.733-56.823 56.733S0 88.067 0 56.734 25.44 0 56.824 0c31.382 0 56.823 25.4 56.823 56.734zM42.64 41.84l14.704 14.68m0 0L72.048 71.2M57.344 56.52l14.704-14.68M57.344 56.52L42.641 71.2"
+      stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="11.028" />
+  </g>
+</svg>

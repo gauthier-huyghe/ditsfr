@@ -1,0 +1,35 @@
+@mixin swiper-navigation() {
+  &__prev {
+    left: 0;
+  }
+
+  &__next {
+    left: 3rem;
+  }
+
+  &__prev,
+  &__next {
+    @include text-font;
+    @include rf(22, 24.5);
+    @include flex-center-center;
+    @include rounded-full;
+    @include md-down {
+      display: none;
+    }
+
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+
+    &.swiper-button-disabled {
+      opacity: 0.3;
+      pointer-events: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

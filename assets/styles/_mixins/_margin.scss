@@ -1,0 +1,26 @@
+@mixin margin($top, $right, $bottom, $left) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+@mixin margin-x($left, $right: false) {
+  @if $right {
+    margin-left: $left;
+    margin-right: $right;
+  } @else {
+    margin-left: $left;
+    margin-right: $left;
+  }
+}
+
+@mixin margin-y($top, $bottom: false) {
+  @if $bottom {
+    margin-top: $top;
+    margin-bottom: $bottom;
+  } @else {
+    margin-top: $top;
+    margin-bottom: $top;
+  }
+}

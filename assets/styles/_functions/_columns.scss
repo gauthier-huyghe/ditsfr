@@ -1,0 +1,9 @@
+@use 'sass:math';
+
+@function columns($number, $column-count: 12) {
+  @if type-of($number) == 'number' and unitless($number) {
+    @return percentage(math.div($number, $column-count));
+  }
+
+  @return $number;
+}
