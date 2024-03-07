@@ -7,7 +7,7 @@ subject: Dinner in the sky
     <spacer size="10"></spacer>
     <row class="collapse">
       <columns small="6" large="4">
-        <img src="https://dinnerinthesky.be/mailing/2022_reply_auto/img/logo-white.png" alt="Dinner in the sky | Belgium">
+        <img src="https://dinnerinthesky.be/mailing/2022_reply_auto/img/logo-white.png" alt="Dinner in the sky | France">
       </columns>
       <columns small="6" large="8">
         &nbsp;

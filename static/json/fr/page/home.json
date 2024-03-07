@@ -1,8 +1,8 @@
 {
   "metas": {
-    "title": "Dinner in the sky - Belgium",
-    "description": "$dates, en Belgique",
-    "image": "https://dinnerinthesky.be/img/background/DITS-2022-Cloud.png"
+    "title": "Dinner in the sky - France",
+    "description": "$dates, en France",
+    "image": "https://dinnerinthesky.be/img/background/DITS-2024-Neutral.png"
   },
   "blocks": [
     {
@@ -14,8 +14,8 @@
         "subtitle": "POUR LE TOUTE PREMIERE FOIS<br/>DANS LE CIEL DE <strong>MOUGINS</strong>",
         "place": "",
         "image": {
-          "desktop": "/img/background/DITS-2022-Cloud.png",
-          "mobile": "/img/background/DITS-2022-Cloud.png"
+          "desktop": "/img/background/DITS-2024-Neutral.png",
+          "mobile": "/img/background/DITS-2024-Neutral_Mobile.png"
         },
         "text": "Pour être averti en priorité des réservations remplissez les informations ci-dessous"
       }

@@ -1,6 +1,6 @@
 <template>
   <div class="cookiespolicy">
-    <UiTitle tag="h3" :title="$t('cookies_policy_title')" />
+    <UiTitle tag="div" :title="$t('cookies_policy_title')" />
 
     <div class="cookiespolicy__text" v-html="cookiesPolicy" />
     <div v-if="cookiesList" class="cookiespolicy__list">
@@ -9,7 +9,7 @@
         :key="`cookiepolicy-${i}`"
         class="cookiespolicy__item"
       >
-        <h4 v-text="$t(`cookies_${id}_title`)" />
+        <div v-text="$t(`cookies_${id}_title`)" />
         <p v-html="$t(`cookies_${id}_description`)" />
 
         <div class="table">

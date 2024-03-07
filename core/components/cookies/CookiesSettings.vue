@@ -1,6 +1,6 @@
 <template>
   <div class="cookiesettings">
-    <UiTitle tag="h3" :title="$t('cookies_bar_settings')" />
+    <UiTitle tag="div" :title="$t('cookies_bar_settings')" />
     <div class="cookiesettings__list">
       <div
         v-for="({ id, editable }, index) in $cookieManager.groups"
@@ -8,9 +8,9 @@
         class="cookiesettings__item"
       >
         <div class="cookiesettings__header">
-          <h4 class="cookiesettings__title">
+          <div class="cookiesettings__title">
             {{ $t(`cookies_${id}_title`) }}
-          </h4>
+          </div>
           <div class="cookiesettings__switcher">
             <div
               v-if="editable === false"

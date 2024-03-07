@@ -83,7 +83,7 @@ export const resolveHead = (
         hid: 'og:site_name',
         name: 'og:site_name',
         property: 'og:site_name',
-        content: 'Dinner in the sky Belgium',
+        content: 'Dinner in the sky France',
       },
       {
         hid: 'og:type',

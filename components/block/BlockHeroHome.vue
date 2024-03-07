@@ -19,7 +19,7 @@
       <UiImage
         class="home-hero__logo"
         src="/img/DITSfr_white.svg"
-        alt="Dinner in the sky - Belgium"
+        alt="Dinner in the sky - France"
         auto-size
         no-background
       />
@@ -148,13 +148,15 @@ export default {
       position: absolute;
       z-index: 1;
       inset: 0;
+      // rgba(18, 108, 146, 0.8) 0%,
       background-image: linear-gradient(
         83.37deg,
-        rgba(0, 12, 56, 0.59) 5.59%,
-        rgba(0, 12, 56, 0) 62.25%
+        rgba(11, 66, 107, 0.8) 0%,
+        rgba(11, 66, 107, 0) 62.25%
       );
       border-top-left-radius: var(--global-radius);
       border-bottom-right-radius: var(--global-radius);
+      background-blend-mode: multiply;
     }
   }
 
@@ -184,7 +186,7 @@ export default {
       gap: 2rem;
       padding: 0 2rem;
       padding-top: 7rem;
-      padding-bottom: 14rem;
+      padding-bottom: 2rem;
     }
     @include lg-up {
       padding-left: columns(1);
@@ -228,7 +230,7 @@ export default {
     @include md-down {
       width: 50%;
       max-width: 40rem;
-      margin-bottom: 80vw;
+      margin-bottom: 50vw;
     }
     @include lg-up {
       width: 35%;

@@ -20,7 +20,7 @@
         />
         <UiImage
           src="/img/DITSfr_black.svg"
-          alt="Dinner in the sky - Belgium"
+          alt="Dinner in the sky - France"
           auto-size
           no-background
         />
@@ -41,7 +41,7 @@
           :class="`home-split-item-${i}`"
         >
           <div class="home-hero-split__item__image">
-            <UiImage :src="item.image" alt="Dinner in the sky - Belgium" />
+            <UiImage :src="item.image" alt="Dinner in the sky - France" />
             <UiLink
               :link="{ route: item.moreinfoLink }"
               class="home-hero-split__item__button"

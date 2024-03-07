@@ -57,7 +57,7 @@
         </div>
         <div
           v-if="datas.masterCook"
-          title="Mastercooks Of Belgium"
+          title="Mastercooks Of France"
           class="card-chef__mastercook"
         >
           <img src="/img/MastercooksOfBelgium2.png" alt="" />

@@ -24,7 +24,7 @@
       <UiImage
         class="home-hero-double__logo"
         src="/img/DITSfr_white.svg"
-        alt="Dinner in the sky - Belgium"
+        alt="Dinner in the sky - France"
         auto-size
         no-background
       />

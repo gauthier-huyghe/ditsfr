@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[91],{1246:function(e){e.exports=JSON.parse('{"metas":{"title":"Forms","description":"Forms","image":"https://dummyimage.com/1200x627"},"blocks":[{"type":"hero_page","content":{"tagline":"Une page avec","title":"Des<br /> formulaires"}},{"type":"contact","content":{}},{"type":"newsletter","content":{}}]}')}}]);

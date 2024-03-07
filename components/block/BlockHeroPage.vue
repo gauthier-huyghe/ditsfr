@@ -13,7 +13,7 @@
         v-if="content.logo"
         class="hero-page__logo"
         :src="content.logo"
-        alt="Dinner in the sky - Belgium"
+        alt="Dinner in the sky - France"
         auto-size
         no-background
       />
