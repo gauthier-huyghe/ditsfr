@@ -310,7 +310,7 @@ export default {
     }
   }
   // header-subscribe
-  &.header-subscribe {
+  &--header-subscribe {
     @include flex-row-reverse;
     background: var(--fg);
     color: var(--color-font);
@@ -402,6 +402,30 @@ export default {
     border: 1px solid var(--color-font-alt);
     color: var(--color-font-alt);
     background-color: var(--color-primary);
+    padding: 1.4rem 2rem;
+    height: 5.4rem;
+    width: 18rem;
+
+    &:hover {
+      color: var(--color-primary);
+      border-color: var(--color-font-alt);
+      background: var(--color-font-alt);
+      opacity: 1;
+    }
+  }
+
+  &.bigwhite {
+    @include flex-start-center;
+    @include rf(16, 18);
+    @include font-medium;
+    position: relative;
+    text-align: center;
+    border-radius: 0;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: 1px solid var(--color-primary);
+    color: var(--color-font);
+    background: var(--color-primary);
     padding: 1.4rem 2rem;
     height: 5.4rem;
     width: 18rem;

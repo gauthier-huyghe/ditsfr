@@ -11,7 +11,7 @@
           <UiTitle
             v-if="content.title"
             class="block-text__title"
-            :title="content.title"
+            :title="title"
           />
           <UiText :text="content.text" />
         </div>
@@ -26,6 +26,22 @@ export default {
     content: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    title() {
+      return this.content.title
+        ? this.content.title
+            .replace('$dates_long', this.$t('dates_long'))
+            .replace('$dates', this.$t('dates'))
+        : ''
+    },
+    subtitle() {
+      return this.content.subtitle
+        ? this.content.subtitle
+            .replace('$dates_long', this.$t('dates_long'))
+            .replace('$dates', this.$t('dates'))
+        : ''
     },
   },
 }

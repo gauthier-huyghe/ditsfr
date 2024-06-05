@@ -11,6 +11,8 @@ import { resolveHead } from '~/core/ResolveHead'
 export default {
   name: 'HomePage',
 
+  layout: 'light',
+
   async asyncData({ $api, i18n }) {
     const { metas, blocks } = await $api.getPage(i18n.locale, 'home')
 

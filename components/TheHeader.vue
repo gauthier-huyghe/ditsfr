@@ -2,7 +2,8 @@
   <header class="header" :class="{ isTop }">
     <div class="header__deco" />
     <!-- <HeaderTop /> -->
-    <HeaderMain />
+    <HeaderLight v-if="isLight" />
+    <HeaderMain v-else />
 
     <!-- <div class="header__button_subscribe">
       <UiBookLink
@@ -23,6 +24,12 @@
 import { mapGetters } from 'vuex'
 
 export default {
+  props: {
+    isLight: {
+      type: Boolean,
+      default: false,
+    },
+  },
   computed: {
     ...mapGetters('screens', ['isTop']),
     ...mapGetters('common', ['reservationOpen', 'showMacaron']),

@@ -6,18 +6,38 @@
   },
   "blocks": [
     {
-      "type": "hero_home",
+      "type": "splitscreen",
       "content": {
         "id": "home",
-        "tagline": "",
-        "title": "$dates_long",
-        "subtitle": "POUR LA TOUTE PREMIERE FOIS<br/>DANS LE CIEL DE <strong>MOUGINS</strong>",
-        "place": "",
-        "image": {
-          "desktop": "/img/background/DITS-2024-Neutral.png",
-          "mobile": "/img/background/DITS-2024-Neutral_Mobile.png"
-        },
-        "text": "Pour être averti en priorité des réservations remplissez les informations ci-dessous"
+        "list": [
+          {
+            "title": "Mougins",
+            "subtitle": "Du <strong>13</strong> au <strong>22</strong><br/>septembre 2024",
+            "link": {
+              "text": "Aller à Mougins",
+              "route": "/mougins"
+            },
+            "img": "/img/background/DITS-2024-Neutral.png"
+          },
+          {
+            "title": "Alsace",
+            "subtitle": "Du <strong>20</strong> au <strong>23</strong><br/>juin 2024",
+            "link": {
+              "text": "Aller en Alsace",
+              "url": "https://www.moulin-kircher.fr/moulin-in-the-sky/"
+            },
+            "img": "/img/background/DITS-2024-Alsace.png"
+          },
+          {
+            "title": "Reims",
+            "subtitle": "Du <strong>19</strong> au <strong>22</strong><br/>septembre 2024",
+            "link": {
+              "text": "COMING SOON",
+              "url": ""
+            },
+            "img": "/img/background/DITS-2022-Cloud_2.png"
+          }
+        ]
       }
     },
     {
@@ -28,30 +48,6 @@
         "title": "Inscrivez-vous",
         "text": "<p>Soyez les premiers à être informés de l'ouverture des réservations en remplissant le formulaire ci-dessous :</p>",
         "image": "/img/gallery/KOVA8323.jpg"
-      }
-    },
-    {
-      "type": "gallery",
-      "content": {
-        "id": "medias",
-        "tagline": "Photos & Vidéos",
-        "title": "Media Gallery",
-        "text": ""
-      }
-    },
-    {
-      "type": "knowmore",
-      "content": {
-        "id": "knowmore",
-        "tagline": "En savoir plus<br/><strong>sur notre histoire</strong>",
-        "title": "C'est une histoire surréaliste comme la Belgique les aime tant",
-        "text1": "<p>C'est une histoire surréaliste comme la Belgique les aime tant: il y a 15 ans, The Fungroup, société spécialisée dans les attractions liées aux grues et Hakuna Matata, agence de communication spécialisée en gastronomie, s'associent et réalisent un rêve d’enfant: une table volante baptisée Dinner in the Sky (<a href=\"http://www.dinnerinthesky.com\" target=\"_blank\">www.dinnerinthesky.com</a>) autour de laquelle ont pris place pour l’occasion 22 Jeunes Restaurateurs d’Europe coiffés de leur toque blanche.</p><p>15 ans plus tard Dinner in the Sky sillonne les cieux de plus de 60 pays… L’Europe bien sûr mais aussi l’Australie, l’Inde, Dubaï, l’Afrique du Sud, le Brésil, les Etats-Unis, le Canada, le Japon, la Colombie, le Mexique.</p><p>Au cours de ces cinq années, des dîners incroyables ont été réalisés - par exemple celui organisé dans le ciel de Monaco pour le Prince Albert avec Joël Robuchon aux commandes, le chef le plus étoilé de France - mais aussi plus de 1.000 événements, chacun unique en leur genre, de Paris à Las Vegas en passant par Sydney, Le Cap, Londres ou encore Sao Paulo. </p>",
-        "text2": "<p>Les plus belles étoiles de la gastronomie ont pris place derrière les fourneaux: de Pierre Gagnaire à Marc Veyrat, d’Yves Mattagne à Sergio Herman, de Dani Garcia à Paco Roncero, d’Alain Passard à Yannick Alleno,… </p><p>Les lieux les plus magiques ont été survolés : le Strip de Vegas, les jardins de l’Hôtel King David, la Marina de Dubaï, les collines de la Villa Borghese, le circuit de Spa Francorchamps, les Rives du Saint-Laurent, la plage de Copacabana, la baie de Cape Town… </p><p>Les plus grands media se sont intéressés au concept : ABC, NBC, TF1… le Herald Tribune, le Monde, le Frankfurter Algemein… People Magazine, Elle, Forbes… aux travers des célèbres personnalités qui s’y sont attablées : le Prince de Suède, la présentatrice Japonaise Hiromi Iwasaki, le maire de Las Vegas Oscar B. Goodman…</p>",
-        "bg": {
-          "pretitle": "Depuis",
-          "title": "2006",
-          "img": "/img/DITS-logo-cloud.png"
-        }
       }
     }
   ]
