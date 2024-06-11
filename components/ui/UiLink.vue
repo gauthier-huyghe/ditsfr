@@ -59,18 +59,18 @@ export default {
     isActive() {
       return this.link.route === `#${this.currentSection}`
     },
+    linkRtn() {
+      return (route) => {
+        return this.$route.path !== `/${this.$i18n.locale}`
+          ? `${this.$route.path ?? '/'}${route}`
+          : route
+      }
+    },
   },
   methods: {
-    linkRtn(route) {
-      return this.$route.path !== `/${this.$i18n.locale}` ? `/${route}` : route
-    },
     clickScroll($event) {
       // console.log('this.$route.path', this.$route.path)
-      if (
-        this.$route.path !== `/` &&
-        this.$route.path !== `/${this.$i18n.locale}` &&
-        this.$route.path !== `/${this.$i18n.locale}/`
-      ) {
+      if (!this.link.route.startsWith('#')) {
         this.$router.push(this.localePath(`/${this.link.route}`))
       } else {
         this.$scrollTo(this.link.route)

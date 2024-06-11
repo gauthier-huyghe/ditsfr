@@ -9,24 +9,26 @@
       "type": "splitscreen",
       "content": {
         "id": "home",
+        "bg_img": {
+          "desktop": "/img/background/DITS-2024-Neutral.png",
+          "mobile": "/img/background/DITS-2024-Neutral_Mobile.png"
+        },
         "list": [
-          {
-            "title": "Mougins",
-            "subtitle": "Du <strong>13</strong> au <strong>22</strong><br/>septembre 2024",
-            "link": {
-              "text": "Aller à Mougins",
-              "route": "/mougins"
-            },
-            "img": "/img/background/DITS-2024-Neutral.png"
-          },
           {
             "title": "Alsace",
             "subtitle": "Du <strong>20</strong> au <strong>23</strong><br/>juin 2024",
             "link": {
               "text": "Aller en Alsace",
               "url": "https://www.moulin-kircher.fr/moulin-in-the-sky/"
-            },
-            "img": "/img/background/DITS-2024-Alsace.png"
+            }
+          },
+          {
+            "title": "Mougins",
+            "subtitle": "Du <strong>13</strong> au <strong>22</strong><br/>septembre 2024",
+            "link": {
+              "text": "Aller à Mougins",
+              "route": "/mougins#home"
+            }
           },
           {
             "title": "Reims",
@@ -34,8 +36,7 @@
             "link": {
               "text": "COMING SOON",
               "url": ""
-            },
-            "img": "/img/background/DITS-2022-Cloud_2.png"
+            }
           }
         ]
       }

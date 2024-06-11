@@ -75,6 +75,29 @@
       icon="chevron-right"
     />
   </a>
+  <a
+    v-else-if="
+      !link.url && link.route && typeof link.route === 'string' && isRealLink
+    "
+    :class="classes"
+    :href="link.route"
+  >
+    <UiIcon
+      v-if="displayedIcon"
+      :icon="displayedIcon"
+      class="ui-button__icon"
+      :class="iconColor"
+    />
+    <span class="ui-button__text">
+      <slot />
+    </span>
+    <UiIcon
+      v-if="chevron"
+      class="ui-button__chevron"
+      size="xs"
+      icon="chevron-right"
+    />
+  </a>
   <!-- Nuxt link -->
   <NuxtLink
     v-else
@@ -119,6 +142,10 @@ export default {
       default: 'button',
     },
     isLoading: {
+      type: Boolean,
+      default: false,
+    },
+    isRealLink: {
       type: Boolean,
       default: false,
     },
@@ -426,9 +453,9 @@ export default {
     border: 1px solid var(--color-primary);
     color: var(--color-font);
     background: var(--color-primary);
-    padding: 1.4rem 2rem;
+    padding: 1.4rem 2.4rem 1.4rem 2rem;
     height: 5.4rem;
-    width: 18rem;
+    min-width: 18rem;
 
     &:hover {
       color: var(--color-primary);
