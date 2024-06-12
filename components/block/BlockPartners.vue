@@ -15,9 +15,29 @@
         />
       </UiNarrow>
       <UiNarrow left="0.4" right="0.4">
+        <div class="block-partners__list is-main">
+          <div
+            v-for="(item, imageIndex) in partnersMain"
+            :key="`gallery-${imageIndex}`"
+            class="block-partners__list__item"
+            :class="`is-${item.type}`"
+          >
+            <a
+              :href="item.url"
+              target="_blank"
+              class="block-partners__list__link"
+            >
+              <UiImage
+                class="block-partners__image"
+                :src="`/img/partners/${item.img}`"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
         <div class="block-partners__list">
           <div
-            v-for="(item, imageIndex) in partners"
+            v-for="(item, imageIndex) in partnersBase"
             :key="`gallery-${imageIndex}`"
             class="block-partners__list__item"
             :class="`is-${item.type}`"
@@ -57,6 +77,12 @@ export default {
 
   computed: {
     ...mapGetters('common', ['partners']),
+    partnersMain() {
+      return this.partners.filter((item) => item.type === 'main')
+    },
+    partnersBase() {
+      return this.partners.filter((item) => !item.type || item.type !== 'main')
+    },
   },
 
   methods: {},
@@ -88,6 +114,34 @@ export default {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 2rem;
+
+    &.is-main {
+      @include sm {
+        margin-bottom: 2rem;
+
+        &::before {
+          content: '';
+          grid-column: span 2;
+        }
+      }
+      @include md {
+        margin-bottom: 2rem;
+
+        &::before {
+          content: '';
+          grid-column: span 3;
+        }
+      }
+      @include lg-up {
+        margin-top: -4rem;
+        margin-bottom: 9rem;
+
+        &::before {
+          content: '';
+          grid-column: span 4;
+        }
+      }
+    }
 
     &__item {
       --columns-sm: 6;
@@ -199,6 +253,7 @@ export default {
 
     .ui-image__container {
       background: none;
+      height: 100% !important;
 
       img {
         object-fit: contain;

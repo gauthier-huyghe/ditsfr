@@ -7,17 +7,47 @@
       "is_published": true,
       "name": "Philippe Joannes",
       "img": "Philippe_Joannes.png",
-      "resto": "Monte-Carlo SBM",
+      "resto": "MOF, Monte-Carlo SBM",
       "nbrStar": 0,
       "link": "",
-      "date": "<strong>13/09</strong><br/>Lunches 12h et 14h",
+      "date": "<strong>13/09</strong><br/>Lunches 12h et 14h<br/>Goûter 16h30",
+      "imageTop": "/img/logo-MOF-blanc-color.png"
+    },
+    {
+      "is_published": true,
+      "name": "Jacques Maximin",
+      "img": "MAXIMIN_Jacques.png",
+      "resto": "MOF, Monte-Carlo SBM",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>13/09</strong><br/>Lunches 12h et 14h<br/>Goûter 16h30",
+      "imageTop": "/img/logo-MOF-blanc-color.png"
+    },
+    {
+      "is_published": true,
+      "name": "Victor Delpierre",
+      "img": "DELPIERRE_Victor.png",
+      "resto": "La Cuisine des Boissons, Gordes",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>13/09</strong><br/>Goûter 17h45",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Christophe Boutes",
+      "img": "BOUTES_Christophe.png",
+      "resto": "La Mouginoise des Pains, Mougins",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>13/09</strong><br/>Goûter 17h45",
       "imageTop": ""
     },
     {
       "is_published": true,
       "name": "Frédéric Jaunault",
       "img": "Frederic_Jaunault.png",
-      "resto": "MOF",
+      "resto": "MOF Primeur, Créasaveurs, Paris",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>14/09</strong><br/>Lunches 12h et 14h",
@@ -30,8 +60,38 @@
       "resto": "MOF Chocolatier",
       "nbrStar": 0,
       "link": "",
-      "date": "<strong>14/09</strong><br/>Dégustations 16h30",
+      "date": "<strong>14/09</strong><br/>Goûter 16h30",
       "imageTop": "/img/logo-MOF-blanc-color.png"
+    },
+    {
+      "is_published": true,
+      "name": "Wagner Spadacio",
+      "img": "SPADACIO_Wagner.png",
+      "resto": "The Niwaki, Monaco",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>14/09</strong><br/>Goûter 17h45",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Shahar Dahan",
+      "img": "DAHAN_Shahar.png",
+      "resto": "The Niwaki, Monaco",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>14/09</strong><br/>Goûter 17h45",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Jean-Marc Bessire",
+      "img": "BESSIRE_Jean-Marc.png",
+      "resto": "Le Cigalon, Genève, Suisse",
+      "nbrStar": 1,
+      "link": "",
+      "date": "<strong>14/09</strong><br/>Diners 19h et 21h",
+      "imageTop": ""
     },
     {
       "is_published": true,
@@ -50,14 +110,24 @@
       "resto": "Micmac Macarons",
       "nbrStar": 0,
       "link": "",
-      "date": "<strong>15/09</strong><br/>Dégustation 16h30",
+      "date": "<strong>15/09</strong><br/>Goûter 16h30",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Morgan Ricci",
+      "img": "empty.png",
+      "resto": "Rhum Famille Ricci, Mougins",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>15/09</strong><br/>Goûter 17h45",
       "imageTop": ""
     },
     {
       "is_published": true,
       "name": "Davy Tissot",
       "img": "Davy_Tissot.png",
-      "resto": "MOF, Bocuse d'Or",
+      "resto": "MOF, Bocuse d'Or, Lyon",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>15/09</strong><br/>Diners 19h et 21h",
@@ -67,10 +137,40 @@
       "is_published": true,
       "name": "Benoit Sinthon",
       "img": "Benoit_Sinthon.png",
-      "resto": "Il Gallo d'Oro",
+      "resto": "Il Gallo d'Oro, Madère",
       "nbrStar": 2,
       "link": "",
-      "date": "<strong>16/09</strong><br/>Lunch",
+      "date": "<strong>16/09</strong><br/>Lunch 12h",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Nicolas Decherchi",
+      "img": "DECHERCHI_Nicolas.png",
+      "resto": "Le Repère, Mandelieu",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>16/09</strong><br/>Lunch 14h",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Emmanuel Ruz",
+      "img": "RUZ_Emmanuel.png",
+      "resto": "Laflora, Mougins",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>15/09</strong><br/>Diners 19h et 21h",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Xavier Malandran",
+      "img": "MALANDRAN_Xavier.png",
+      "resto": "Laflora, Mougins",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>15/09</strong><br/>Diners 19h et 21h",
       "imageTop": ""
     },
     {
@@ -97,7 +197,7 @@
       "is_published": true,
       "name": "Lucas Simoncini",
       "img": "Lucas_Simoncini.png",
-      "resto": "Royal Riviera, Saint-Jean Cap Ferrat",
+      "resto": "La Table du Royal, Saint-Jean Cap Ferrat",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>18/09</strong><br/>Lunches 12h et 14h",
@@ -107,7 +207,7 @@
       "is_published": true,
       "name": "Geoffroy Szamburski",
       "img": "Geoffroy_Szamburski.png",
-      "resto": "Royal Riviera, Saint-Jean Cap Ferrat",
+      "resto": "La Table du Royal, Saint-Jean Cap Ferrat",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>18/09</strong><br/>Lunches 12h et 14h",
@@ -115,9 +215,19 @@
     },
     {
       "is_published": true,
+      "name": "Pierrick Cizeron",
+      "img": "empty.png",
+      "resto": "Le Mondrian, Cannes",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>18/09</strong><br/>Dégustation 17h45",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
       "name": "Noelle et David Faure",
       "img": "Noelle_David_Faure.png",
-      "resto": "Sensoriel, Nice",
+      "resto": "Sensôriel, Nice",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>18/09</strong><br/>Diners 19h et 21h",
@@ -137,7 +247,7 @@
       "is_published": true,
       "name": "Akhara Chay",
       "img": "Akhara_Chay.png",
-      "resto": "La Vague de Saint-Paul de Vence",
+      "resto": "Au Jardin de la Vague, Saint-Paul de Vence",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>19/09</strong><br/>Diners 19h et 21h",
@@ -155,7 +265,7 @@
     },
     {
       "is_published": true,
-      "name": "Denis Fetisson",
+      "name": "Denis Fétisson",
       "img": "Denis_Fetisson.png",
       "resto": "La Place de Mougins",
       "nbrStar": 0,
@@ -165,13 +275,23 @@
     },
     {
       "is_published": true,
+      "name": "Justin Schmitt",
+      "img": "SCHMITT_Justin.png",
+      "resto": "Château Eza, Èze",
+      "nbrStar": 1,
+      "link": "",
+      "date": "<strong>21/09</strong><br/>Lunches 12h et 14h",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
       "name": "Julien Roucheteau",
       "img": "Julien_Roucheteau.png",
-      "resto": "La Réserve de Beaulieu",
-      "nbrStar": 0,
+      "resto": "MOF, La Réserve de Beaulieu",
+      "nbrStar": 1,
       "link": "",
       "date": "<strong>21/09</strong><br/>Diners 19h et 21h",
-      "imageTop": ""
+      "imageTop": "/img/logo-MOF-blanc-color.png"
     },
     {
       "is_published": true,
@@ -182,12 +302,38 @@
       "link": "",
       "date": "<strong>22/09</strong><br/>Lunches 12h et 14h",
       "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Basile Arnaud",
+      "img": "ARNAUD_Basile.png",
+      "resto": "Hôtel Le Suquet, Cannes",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>22/09</strong><br/>Dégustation 16h30",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Romain Antoine",
+      "img": "empty.png",
+      "resto": "Le Mas Candille, Mougins",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>22/09</strong><br/>Diners 19h et 21h",
+      "imageTop": ""
     }
   ],
   "partners": [
-    { "img": "mougins.png", "url": "https://mouginstourisme.com", "type": "main"},
-    { "img": "tropez.png", "url": "https://www.domaine-tropez.com", "type": "main"},
-    { "img": "etoile-mougins.png", "url": "https://lesetoilesdemougins.com", "type": "main"}
+    { "img": "mougins.png", "url": "https://mouginstourisme.com", "type": ""},
+    { "img": "tropez.png", "url": "https://www.domaine-tropez.com", "type": ""},
+    { "img": "etoile-mougins.png", "url": "https://lesetoilesdemougins.com", "type": ""},
+    { "img": "mediaco.png", "url": "", "type": ""},
+    { "img": "metro-les-halles.jpg", "url": "", "type": ""},
+    { "img": "micmac.jpg", "url": "", "type": ""},
+    { "img": "couteaux-du-chef.png", "url": "", "type": ""},
+    { "img": "mouginoise-des-pains.png", "url": "", "type": ""},
+    { "img": "oliveraie-d-or.webp", "url": "", "type": ""}
   ],
   "galleryDits": [
     { "type": "photo", "src": "2023/20230609-213550-Vincent-Gorissen-Fotografie.png" },
