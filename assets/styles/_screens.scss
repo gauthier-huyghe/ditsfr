@@ -46,7 +46,7 @@ $max-360: 359px;
 $max-320: 319px;
 
 @mixin xs {
-  @media #{new-breakpoint(max-width $max-600)} {
+  @media #{new-breakpoint(max-width $max-420)} {
     @content;
   }
 }

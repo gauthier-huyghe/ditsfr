@@ -17,7 +17,10 @@
             :title="content.title"
             size="xl"
           />
-          <UiText v-if="content.text" :text="content.text" />
+          <UiText
+            v-if="content.text"
+            :text="content.text.replace('$dates', $t('dates_long'))"
+          />
           <div v-if="hasCta || hasLink" class="block-itc__controls">
             <UiBookLink
               v-if="hasCta"
@@ -210,9 +213,14 @@ export default {
     box-shadow: 0px 14px 74px -11px rgba(0, 12, 56, 0.1);
 
     .ui-image.auto-size {
-      @include aspect-ratio(1, 1);
+      @include aspect-ratio(1, 1.5);
       width: 100%;
       cursor: pointer;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
     .ui-image__container {
       @include flex-center-center;

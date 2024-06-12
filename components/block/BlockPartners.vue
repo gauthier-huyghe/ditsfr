@@ -65,6 +65,8 @@ export default {
 
 <style lang="scss">
 .block-partners {
+  $e: &;
+
   @include md-down {
     padding-left: 2rem;
   }
@@ -160,6 +162,22 @@ export default {
         }
         &:nth-child(6n + 6) {
           transform: translateY(8rem);
+        }
+      }
+
+      &.is-main {
+        @include sm {
+          --columns-sm: 8;
+        }
+        @include md {
+          --columns-md: 6;
+        }
+        @include lg-up {
+          --columns-lg: 4;
+        }
+
+        #{$e}__image.ui-image {
+          @include aspect-ratio(2, 1);
         }
       }
     }

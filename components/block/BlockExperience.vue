@@ -40,7 +40,7 @@
             />
             <div class="block-experience__formulas__cta">
               <UiBookLink
-                v-if="item.cta"
+                v-if="item.cta && item.cta.link"
                 theme="underline"
                 :link="item.cta.link"
                 :gtm-data="{ action: '', position: 'experience' }"
@@ -149,6 +149,7 @@ export default {
     @include flex-start-stretch;
     @include flex-col;
     gap: 5rem;
+    width: 100%;
 
     &__item {
       display: grid;
@@ -242,6 +243,7 @@ export default {
     &__cta {
       grid-area: cta;
       margin-top: 2rem;
+      margin-bottom: 4rem;
     }
     &__image {
       grid-area: image;
@@ -270,7 +272,7 @@ export default {
           width: 35rem;
         }
         @include lg-up {
-          @include aspect-ratio(2, 3.3);
+          @include aspect-ratio(2, 3);
         }
 
         &__container {

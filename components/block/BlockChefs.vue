@@ -140,6 +140,11 @@ export default {
 
     @include sm {
       grid-template-columns: repeat(2, 1fr);
+      padding: 2rem 1.5rem 2rem 3.5rem;
+      column-gap: 1rem;
+    }
+    @include xs {
+      grid-template-columns: repeat(1, 1fr);
       padding: 2rem 2rem 2rem 4rem;
     }
     @include md {
@@ -148,12 +153,12 @@ export default {
     }
     @include lg-up {
       grid-template-columns: repeat(5, 1fr);
-      padding: 0 var(--gutter) 8rem var(--gutter);
+      padding: 0 calc(var(--gutter) + 2rem) 8rem calc(var(--gutter) + 2rem);
     }
     @include xxl {
       grid-template-columns: repeat(7, 1fr);
       max-width: $page-max;
-      padding: 2rem 6rem 8rem 6rem;
+      padding: 2rem 8rem 8rem 8rem;
       margin: 6rem auto;
     }
 

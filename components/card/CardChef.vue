@@ -30,7 +30,7 @@
         :href="datas.link || null"
         target="_blank"
         class="card-chef__resto"
-        v-html="`${$t('resto_label')} - ${datas.resto}`"
+        v-html="`${/*$t('resto_label')} - ${*/ datas.resto}`"
       />
       <div
         v-if="
@@ -109,18 +109,30 @@ export default {
     .ui-image {
       border-top-left-radius: 8rem;
       border-bottom-right-radius: 8rem;
+
+      @include sm {
+        border-top-left-radius: 6rem;
+        border-bottom-right-radius: 6rem;
+      }
     }
 
     #{$e}__date {
+      @include rf(14, 15);
       position: absolute;
-      right: 1rem;
-      top: 1rem;
+      left: 1rem;
+      bottom: 1rem;
       width: auto;
-      padding: 0.3rem 0.8rem;
+      padding: 0.5rem 0.8rem;
+      line-height: 1.1;
       color: var(--color-font);
       background: var(--fg);
       text-align: center;
+      border-top-right-radius: 1rem;
       border-bottom-left-radius: 1rem;
+
+      strong {
+        font-size: 1.2em;
+      }
 
       &.is-soon {
         @include rf(9, 9);
@@ -167,13 +179,14 @@ export default {
     }
   }
   &__resto {
-    @include rf(16, 16);
+    @include rf(17, 17);
     @include font-light;
     display: block;
     margin-bottom: 0.4rem;
   }
   &__footer {
     @include flex-between-start;
+    positon: relative;
   }
   &__michelin {
     @include flex-initial;
@@ -192,9 +205,20 @@ export default {
   }
 
   &__imageBottom {
+    position: absolute;
+    bottom: 8rem;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 0.3rem;
+
     img {
-      height: 4.5rem;
-      margin-top: -2.2rem;
+      height: 8rem;
+
+      @include sm {
+        height: 6rem;
+      }
     }
   }
 }

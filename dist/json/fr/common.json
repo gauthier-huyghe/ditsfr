@@ -1,6 +1,18 @@
 {
   "main_menu": [
     {
+      "text": "DITS",
+      "route": "#dits"
+    },
+    {
+      "text": "L'Experience",
+      "route": "#experience"
+    },
+    {
+      "text": "Les Chefs",
+      "route": "#chefs"
+    },
+    {
       "text": "Inscrivez-vous",
       "route": "#booking"
     },
@@ -9,18 +21,38 @@
       "route": "#medias"
     },
     {
-      "text": "En savoir +",
-      "route": "#knowmore"
+      "text": "Les Partenaires",
+      "route": "#partners"
     }
   ],
   "secondary_menu": [
     {
+      "text": "DITS",
+      "route": "#dits"
+    },
+    {
+      "text": "Le Concept",
+      "route": "#concept"
+    },
+    {
+      "text": "L'Experience",
+      "route": "#experience"
+    },
+    {
+      "text": "Les Chefs",
+      "route": "#chefs"
+    },
+    {
       "text": "Inscrivez-vous",
       "route": "#booking"
     },
     {
       "text": "Médias",
       "route": "#medias"
+    },
+    {
+      "text": "Les Partenaires",
+      "route": "#partners"
     },
     {
       "text": "En savoir +",

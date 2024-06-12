@@ -81,6 +81,10 @@
     text-decoration: underline;
   }
 
+  sup {
+    font-size: 0.65em;
+  }
+
   strong {
     @include font-bold;
 
