@@ -29,7 +29,7 @@ $unsubscribe_text = 'Unsubscribe';
 
 /*****    OPEN    */
 
-$openText01 = 'Madame, Monsieur,<br/><br/>Merci pour votre intérêt pour Dinner in the Sky.<br/>Nous avons le plaisir de vous informer que vous êtes dès à présent inscrits dans notre base de donnée.<br/>Vous serez informé en priorité de toutes les informations concernant nos prochains évènements.<br/>Noter que les réservations pour notre évènement de main 2024 sont actuellement ouvertes via le lien suivant :';
+$openText01 = 'Madame, Monsieur,<br/><br/>Merci pour votre intérêt pour Dinner in the Sky.<br/>Nous avons le plaisir de vous informer que vous êtes dès à présent inscrits dans notre base de donnée.<br/>Les réservations pour notre évènement de 2024 sont actuellement ouvertes via le lien suivant :';
 $openText02 = 'Au plaisir de vous accueillir très bientôt sur Dinner in the Sky.<br/><br/>L\'Equipe Dinner in the Sky<br/>';
 
 $openImage01 = 'https://dinnerinthesky.fr/img/background/DITS-2022-Cloud.png';
