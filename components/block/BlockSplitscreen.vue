@@ -102,7 +102,7 @@ export default {
     @include md-up {
       @include flex-center-center;
       height: calc(100svh - 8rem - 5rem);
-      gap: 0rem;
+      gap: 5vw;
       border-bottom-right-radius: 6rem;
     }
   }
@@ -119,7 +119,7 @@ export default {
       @include flex-end-start;
       @include flex-col;
       position: relative;
-      width: columns(1, 3);
+      // width: columns(1, 3);
       height: 100%;
       overflow: hidden;
     }
