@@ -366,13 +366,15 @@
   ],
   "partners": [
     { "img": "mougins.png", "url": "https://mouginstourisme.com", "type": ""},
-    { "img": "tropez.png", "url": "https://www.domaine-tropez.com", "type": ""},
+    { "img": "torpez-vin.png", "url": "https://www.torpez.com", "type": ""},
     { "img": "etoile-mougins.png", "url": "https://lesetoilesdemougins.com", "type": ""},
     { "img": "mediaco.png", "url": "", "type": ""},
     { "img": "metro-les-halles.jpg", "url": "", "type": ""},
     { "img": "micmac.jpg", "url": "", "type": ""},
     { "img": "couteaux-du-chef.png", "url": "", "type": ""},
-    { "img": "mouginoise-des-pains.png", "url": "", "type": ""},
+    { "img": "lavazza.png", "url": "", "type": ""},
+    { "img": "magnumpower.png", "url": "", "type": ""},
+    { "img": "mouginoise-des-pains2.png", "url": "", "type": ""},
     { "img": "oliveraie-d-or.webp", "url": "", "type": ""}
   ],
   "galleryDits": [
