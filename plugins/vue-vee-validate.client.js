@@ -34,7 +34,7 @@ extend('password', (value) => {
   return value.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/)
 })
 extend('phone', (value) => {
-  const phone = parsePhoneNumberFromString(value, 'BE')
+  const phone = parsePhoneNumberFromString(value, 'FR')
   const valid = value && phone && phone.isValid()
   return valid
   // return value.match(/^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s./0-9]*$/)
