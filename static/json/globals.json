@@ -145,6 +145,16 @@
     },
     {
       "is_published": true,
+      "name": "Fanny Rey",
+      "img": "Fanny_Rey.png",
+      "resto": "Auberge De Saint Remy de Provence",
+      "nbrStar": 1,
+      "link": "",
+      "date": "<strong>15/09</strong><br/>Diners 19h et 21h",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
       "name": "Benoit Sinthon",
       "img": "Benoit_Sinthon.png",
       "resto": "Il Gallo d'Oro, Madère",
@@ -154,10 +164,30 @@
       "imageTop": ""
     },
     {
-      "is_published": true,
+      "is_published": false,
       "name": "Nicolas Decherchi",
       "img": "DECHERCHI_Nicolas.png",
       "resto": "Le Repère, Mandelieu",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>16/09</strong><br/>Lunch 14h",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Emmanuel Ruz",
+      "img": "RUZ_Emmanuel.png",
+      "resto": "Chef Brésilien",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>16/09</strong><br/>Lunch 14h",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Xavier Malandran",
+      "img": "MALANDRAN_Xavier.png",
+      "resto": "Laflora, Mougins",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>16/09</strong><br/>Lunch 14h",
@@ -229,6 +259,16 @@
       "img": "CIZERON_Pierrick.png",
       "resto": "Le Mondrian, Cannes",
       "nbrStar": 0,
+      "link": "",
+      "date": "<strong>18/09</strong><br/>Goüter 17h30",
+      "imageTop": ""
+    },
+    {
+      "is_published": true,
+      "name": "Stéphane Mangin",
+      "img": "Stephane_Mangin.png",
+      "resto": "Maisons Marcon",
+      "nbrStar": 3,
       "link": "",
       "date": "<strong>18/09</strong><br/>Goüter 17h30",
       "imageTop": ""
