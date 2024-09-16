@@ -135,16 +135,6 @@
     },
     {
       "is_published": true,
-      "name": "Davy Tissot",
-      "img": "Davy_Tissot.png",
-      "resto": "MOF, Bocuse d'Or, Lyon",
-      "nbrStar": 0,
-      "link": "",
-      "date": "<strong>15/09</strong><br/>Diners 19h et 21h",
-      "imageTop": "/img/logo-MOF-blanc-color.png"
-    },
-    {
-      "is_published": true,
       "name": "Fanny Rey",
       "img": "Fanny_Rey.png",
       "resto": "Auberge De Saint Remy de Provence",
@@ -175,19 +165,9 @@
     },
     {
       "is_published": true,
-      "name": "Emmanuel Ruz",
-      "img": "RUZ_Emmanuel.png",
-      "resto": "Chef Brésilien",
-      "nbrStar": 0,
-      "link": "",
-      "date": "<strong>16/09</strong><br/>Lunch 14h",
-      "imageTop": ""
-    },
-    {
-      "is_published": true,
-      "name": "Xavier Malandran",
-      "img": "MALANDRAN_Xavier.png",
-      "resto": "Laflora, Mougins",
+      "name": "Manuel Rondan",
+      "img": "RONDAN_Manuel.png",
+      "resto": "Bohème, Mougins",
       "nbrStar": 0,
       "link": "",
       "date": "<strong>16/09</strong><br/>Lunch 14h",
@@ -402,6 +382,16 @@
       "link": "",
       "date": "<strong>22/09</strong><br/>Diners 19h et 21h",
       "imageTop": ""
+    },
+    {
+      "is_published": false,
+      "name": "Davy Tissot",
+      "img": "Davy_Tissot.png",
+      "resto": "MOF, Bocuse d'Or, Lyon",
+      "nbrStar": 0,
+      "link": "",
+      "date": "<strong>15/09</strong><br/>Diners 19h et 21h",
+      "imageTop": "/img/logo-MOF-blanc-color.png"
     }
   ],
   "partners": [
