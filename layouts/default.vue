@@ -51,8 +51,9 @@ export default {
 
   watch: {
     async '$i18n.locale'(newLocale) {
-      const data = await this.$api.getCommon(newLocale)
-      const globals = await this.$api.getGlobals()
+      const city = this.$route.params.city || null
+      const data = await this.$api.getCommon(newLocale, city)
+      const globals = await this.$api.getGlobals(city)
       this.$store.commit('common/setData', {
         data,
         lang: newLocale,

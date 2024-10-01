@@ -107,9 +107,9 @@ export default {
   },
 
   props: {
-    value: {
-      type: String,
-      default: '',
+    content: {
+      type: Object,
+      default: () => ({}),
     },
   },
 
@@ -143,6 +143,12 @@ export default {
         this.setIsCompanyFromButton(false)
       }
     },
+  },
+
+  mounted() {
+    if (this.content.city) {
+      this.fields.city = this.content.city
+    }
   },
 
   methods: {

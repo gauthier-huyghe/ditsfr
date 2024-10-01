@@ -1,7 +1,7 @@
 {
   "metas": {
     "title": "Dinner in the sky - France",
-    "description": "$dates, en France",
+    "description": "$dates, à Mougins",
     "image": "https://dinnerinthesky.be/img/background/DITS-2024-Neutral.png"
   },
   "blocks": [
@@ -11,7 +11,7 @@
         "id": "home",
         "tagline": "",
         "title": "$dates_long",
-        "subtitle": "POUR LA TOUTE PREMIERE FOIS<br/>DANS LE CIEL DE <strong>MOUGINS</strong>",
+        "subtitle": "Rendez-vous en Septembre 2025<br/>dans le ciel de <strong>MOUGINS</strong>",
         "place": "",
         "image": {
           "desktop": "/img/background/DITS-2024-Neutral.png",
@@ -26,7 +26,7 @@
         "id": "dits",
         "tagline": "DITS",
         "title": "Une expérience gastronomique unique, la tête dans les étoiles",
-        "text": "<p>Après Monaco, Rome, Beyrouth, Tokyo, Dubaï ou encore Las Vegas, Dinner in the Sky<sup>®</sup> s’installe pour la première fois, au cœur de Mougins, berceau du Festival des Etoiles.</p><p>Le temps d’un déjeuner, d’un dîner, d’une pause gourmande ou un brunch, prenez de la hauteur pour vivre une expérience gustative extra-ordinaire et profiter d’une vue imprenable sur la méditerranée et l’arrière-pays cannois.</p>",
+        "text": "<p>Après Monaco, Rome, Beyrouth, Tokyo, Dubaï ou encore Las Vegas, Dinner in the Sky<sup>®</sup> s’installera à nouveau au cœur de Mougins, berceau du Festival des Etoiles.</p><p>Le temps d’un déjeuner, d’un dîner, d’une pause gourmande ou un brunch, prenez de la hauteur pour vivre une expérience gustative extra-ordinaire et profiter d’une vue imprenable sur la méditerranée et l’arrière-pays cannois.</p>",
         "images1": [
         ],
         "images2": [
@@ -39,11 +39,11 @@
         "id": "concept",
         "tagline": "concept",
         "title": "Le Concept",
-        "text": "<p>Dinner in the Sky<sup>®</sup> est une expérience gastronomique extraordinaire qui repose sur les notions de surprise et de découverte tant dans le menu que dans la rencontre et l’échange avec le Chef ou le Chocolatier/Pâtissier avec qui vous embarquez.</p><p>En plein ciel de Mougins, une table de <strong>22 personnes</strong> est suspendue dans les airs. Au centre de la table se trouve un espace cuisine permettant aux Chefs de préparer et de servir, face à vous, un repas d’exception.</p><p>Cet incroyable concept débarquera pour la <strong>1<sup>ère</sup> fois à Mougins</strong>, <strong>$dates</strong>, pour :</p><ul><li><strong>2 déjeuners par jour</strong>,</li><li><strong>2 goûters par jour</strong></li><li><strong>2 dîners par jour</strong></li></ul><p>Au total <strong>770 personnes</strong> pourront déguster des mets raffinés la tête dans les étoiles…</p>",
+        "text": "<p>Dinner in the Sky<sup>®</sup> est une expérience gastronomique extraordinaire qui repose sur les notions de surprise et de découverte tant dans le menu que dans la rencontre et l’échange avec le Chef ou le Chocolatier/Pâtissier avec qui vous embarquez.</p><p>En plein ciel de Mougins, une table de <strong>22 personnes</strong> est suspendue dans les airs. Au centre de la table se trouve un espace cuisine permettant aux Chefs de préparer et de servir, face à vous, un repas d’exception.</p><p>Cet incroyable concept sera de retour à Mougins</strong>, en <strong>$dates</strong>, pour :</p><ul><li><strong>2 déjeuners par jour</strong>,</li><li><strong>2 goûters par jour</strong></li><li><strong>2 dîners par jour</strong></li></ul><p>Au total <strong>770 personnes</strong> pourront déguster des mets raffinés la tête dans les étoiles…</p>",
         "image": "/img/gallery/Mougins.jpg",
         "cta": {
-          "text": "Réservez maintenant",
-          "route": "#booking",
+          "text": "Je m'inscris",
+          "link": "https://dinner-in-the-sky-mougins.eventsquare.store/fr",
           "gtm": {
             "action": "concept",
             "position": "concept"
@@ -66,7 +66,7 @@
             "text3": "<h4>Timing du Lunch 1 :</h4><ul><li>11h00 : Accueil Champagne au sein du VIP Lounge</li><li>12h00 : Décollage</li><li>13h15 : Atterrissage</li><li>14h00 : Café dans le VIP Lounge</li></ul><h4>Timing du Lunch 2 :</h4><ul><li>13h00 : Accueil Champagne au sein du VIP Lounge</li><li>14h00 : Décollage</li><li>15h15 : Atterrissage</li><li>16h00 : Café dans le VIP Lounge</li></ul>",
             "image": "/img/gallery/11209472_1574094252811244_8917164324048276224_n.jpg",
             "cta": {
-              "text": "Réservez votre Lunch",
+              "text": "Je m'inscris pour le Lunch",
               "link": "https://dinner-in-the-sky-mougins.eventsquare.store/fr"
             }
           },
@@ -77,7 +77,7 @@
             "text3": "<h4>Timing du Goûter in the Sky 1 :</h4><ul><li>15h45 : Accueil au sein du VIP Lounge</li><li>16h15 : Décollage</li><li>17h00 : Atterrissage & Fin</li></ul><h4>Timing du Goûter in the Sky 2 :</h4><ul><li>17h15 : Accueil au sein du VIP Lounge</li><li>17h45 : Décollage</li><li>18h30 : Atterrissage & Fin</li></ul>",
             "image": "/img/experience/Cocktail.jpg",
             "cta": {
-              "text": "Réservez votre Goûter",
+              "text": "Je m'inscris pour le Goûter",
               "link": "https://dinner-in-the-sky-mougins.eventsquare.store/fr"
             }
           },
@@ -88,7 +88,7 @@
             "text3": "<h4>Timing du Dinner 1 :</h4><ul><li>18h00 : Accueil Champagne au sein du VIP Lounge</li><li>19h00 : Décollage</li><li>20h15 : Atterrissage</li><li>21h00 : Café dans le VIP Lounge</li></ul><h4>Timing du Dinner 2 :</h4><ul><li>20h00 : Accueil Champagne au sein du VIP Lounge</li><li>21h00 : Décollage</li><li>22h15 : Atterrissage</li><li>23h00 : Café dans le VIP Lounge</li></ul>",
             "image": "/img/gallery/JJ5_7049.jpg",
             "cta": {
-              "text": "Réservez votre Dîner",
+              "text": "Je m'inscris pour le Dîner",
               "link": "https://dinner-in-the-sky-mougins.eventsquare.store/fr"
             }
           }
@@ -100,8 +100,8 @@
       "content": {
         "id": "chefs",
         "tagline": "Nos chefs",
-        "title": "Chefs Dream Team 2024",
-        "text": "<p>Une vingtaine de talents gastronomiques dont de nombreux Chefs MOF étoilés participeront à cet événement culinaire hors norme.</p>"
+        "title": "Chefs 2025",
+        "text": "<h2>Prochainement</h2><br/><br/><hr/><br/><br/><h2>Chefs Dream Team 2024</h2><p>Une vingtaine de talents gastronomiques dont de nombreux Chefs MOF étoilés participeront à cet événement culinaire hors norme.</p>"
       }
     },
     {
@@ -109,9 +109,10 @@
       "content": {
         "id": "booking",
         "tagline": "Inscrivez-vous",
-        "title": "Liste d’attente",
-        "text": "<p>Inscrivez-vous sur notre liste d’attente pour recevoir un e-mail si des places se libèrent.</p>",
-        "image": "/img/gallery/KOVA8323.jpg"
+        "title": "Réservez dès maintenant votre expérience",
+        "text": "<p>Soyez les premiers à être informés de l'ouverture des réservations !</p>",
+        "image": "/img/gallery/KOVA8323.jpg",
+        "city": "mougins"
       }
     },
     {

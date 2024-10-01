@@ -22,7 +22,7 @@
               :title="$t('booking_thanks_title')"
               :text="$t('booking_thanks_text')"
             />
-            <FormBooking v-else v-model="status" :value="content" />
+            <FormBooking v-else v-model="status" :content="content" />
           </div>
           <div class="block-booking__image">
             <UiImage

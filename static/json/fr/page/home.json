@@ -16,7 +16,7 @@
         "list": [
           {
             "title": "Mougins",
-            "subtitle": "Du <strong>13</strong> au <strong>22</strong><br/>septembre 2024",
+            "subtitle": "Septembre 2025",
             "link": {
               "text": "Aller à Mougins",
               "route": "/mougins#home"
@@ -24,10 +24,10 @@
           },
           {
             "title": "Reims",
-            "subtitle": "Du <strong>19</strong> au <strong>22</strong><br/>septembre 2024",
+            "subtitle": "Septembre 2025",
             "link": {
-              "text": "Réservez maintenant",
-              "url": "https://www.lesrelaisdugout.fr/programme-complet/dinner-in-the-sky/"
+              "text": "Aller à Reims",
+              "route": "/reims#home"
             }
           },
           {

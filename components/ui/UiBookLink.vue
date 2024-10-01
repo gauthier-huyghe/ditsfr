@@ -14,8 +14,8 @@
     <a
       v-else
       :class="classes"
-      :href="link || $t('link_booking')"
-      @click.prevent="clickScroll(link || $t('link_booking'), false)"
+      href="#booking"
+      @click.prevent="clickScroll('#booking', false)"
     >
       <slot />
     </a>

@@ -22,7 +22,7 @@ $Config["SUBJECT_PRIVATE"] = "Contact Dinner in the Sky - Private";
 $datas = json_decode($_POST['data']);
 
 $Values['youare'] = (isset($datas->youare) && ($datas->youare == 'company' || $datas->youare == 'private') ? $datas->youare : '');
-$Values['city'] = (isset($datas->city) ? $datas->city : 'brussels');
+$Values['city'] = (isset($datas->city) ? $datas->city : '');
 $Values['companyname'] = (isset($datas->companyname) ? $datas->companyname : '');
 $Values['firstname'] = (isset($datas->firstname) ? $datas->firstname : '');
 $Values['lastname'] = (isset($datas->lastname) ? $datas->lastname : '');
@@ -169,7 +169,7 @@ global $Values;
 		if ($Values['youare'] == 'company') {
 			$data = array(
 				'ip' => $_SERVER["REMOTE_ADDR"],
-				// 'city' => utf8_decode($Values['city']),
+				'city' => utf8_decode($Values['city']),
 				'companyname' => utf8_decode($Values['companyname']),
 				'firstname' => utf8_decode($Values['firstname']),
 				'lastname' => utf8_decode($Values['lastname']),
@@ -179,13 +179,13 @@ global $Values;
 				'language' => $Values["language"]
 			);
 
-			$sql = "INSERT INTO contact_list_company(ip, companyname, firstname, lastname, email, phone, nbrseat, language) VALUES (:ip, :companyname, :firstname, :lastname, :email, :phone, :nbrseat, :language)";
+			$sql = "INSERT INTO contact_list_company(ip, city, companyname, firstname, lastname, email, phone, nbrseat, language) VALUES (:ip, :city, :companyname, :firstname, :lastname, :email, :phone, :nbrseat, :language)";
 			// $sql = "INSERT INTO contact_list_company(ip, city, companyname, firstname, lastname, email, phone, nbrseat, language) VALUES (:ip, :city, :companyname, :firstname, :lastname, :email, :phone, :nbrseat, :language)";
 
 		} else {
 			$data = array(
 				'ip' => $_SERVER["REMOTE_ADDR"],
-				// 'city' => utf8_decode($Values['city']),
+				'city' => utf8_decode($Values['city']),
 				'firstname' => utf8_decode($Values['firstname']),
 				'lastname' => utf8_decode($Values['lastname']),
 				'email' => utf8_decode($Values['email']),
@@ -193,7 +193,7 @@ global $Values;
 				'language' => $Values["language"]
 			);
 
-			$sql = "INSERT INTO contact_list_private(ip, firstname, lastname, email, phone, language) VALUES (:ip, :firstname, :lastname, :email, :phone, :language)";
+			$sql = "INSERT INTO contact_list_private(ip, city, firstname, lastname, email, phone, language) VALUES (:ip, :city, :firstname, :lastname, :email, :phone, :language)";
 			// $sql = "INSERT INTO contact_list_private(ip, city, firstname, lastname, email, phone, language) VALUES (:ip, :city, :firstname, :lastname, :email, :phone, :language)";
 
 		}

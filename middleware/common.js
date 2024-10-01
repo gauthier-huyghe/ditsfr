@@ -1,4 +1,4 @@
-export default async function ({ app: { $api }, i18n, store }) {
+export default async function ({ app: { $api }, i18n, store, route }) {
   const currentCommonLanguage = store.state.common.lang
   const staleCommonFetch =
     currentCommonLanguage && currentCommonLanguage === i18n.locale
@@ -6,8 +6,9 @@ export default async function ({ app: { $api }, i18n, store }) {
   // console.log('shouldFetchCommon:', staleCommonFetch, currentCommonLanguage)
 
   if (!staleCommonFetch) {
-    const data = await $api.getCommon(i18n.locale)
-    const globals = await $api.getGlobals()
+    const city = route.params.city || null
+    const data = await $api.getCommon(i18n.locale, city)
+    const globals = await $api.getGlobals(city)
     store.commit('common/setData', {
       data,
       lang: i18n.locale,

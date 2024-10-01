@@ -7,12 +7,12 @@ export default ({ error, app, strategy = 'ajax' }) => {
   // TODO use vanila Error instead of nuxt's
 
   const calls = {
-    getGlobals() {
-      const path = `/globals`
+    getGlobals(city) {
+      const path = `/globals${city ? `_${city}` : ''}`
       return makeGet(path, 'globals data')
     },
-    getCommon(locale) {
-      const path = `/${locale}/common`
+    getCommon(locale, city) {
+      const path = `/${locale}/common${city ? `_${city}` : ''}`
       return makeGet(path, 'common data')
     },
     getTranslations(locale) {
