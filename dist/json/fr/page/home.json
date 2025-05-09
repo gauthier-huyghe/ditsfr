@@ -15,16 +15,8 @@
         },
         "list": [
           {
-            "title": "Mougins",
-            "subtitle": "Septembre 2025",
-            "link": {
-              "text": "Aller à Mougins",
-              "route": "/mougins#home"
-            }
-          },
-          {
             "title": "Reims",
-            "subtitle": "Septembre 2025",
+            "subtitle": "Du <strong>18</strong> au <strong>21</strong><br/>septembre 2025",
             "link": {
               "text": "Aller à Reims",
               "route": "/reims#home"
@@ -32,7 +24,7 @@
           },
           {
             "title": "Thonon-les-Bains",
-            "subtitle": "Du <strong>11</strong> au <strong>13</strong><br/>octobre 2024",
+            "subtitle": "Du <strong>10</strong> au <strong>12</strong><br/>octobre 2025",
             "link": {
               "text": "Réservez maintenant",
               "url": "https://www.thononlesbains.com/fete-et-manifestation/dinner-in-the-skyr-by-thonon-thonon-les-bains/"

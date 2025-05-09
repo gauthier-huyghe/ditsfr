@@ -1,26 +1,44 @@
 /*!
+ * Vue.js v2.7.16
+ * (c) 2014-2023 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * cookie
+ * Copyright(c) 2012-2014 Roman Shtylman
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */
+
+/*!
+ * vuex v3.6.2
+ * (c) 2021 Evan You
+ * @license MIT
+ */
+
+
+/*!
   * vue-scrollto v2.20.0
   * (c) 2019 Randjelovic Igor
   * @license MIT
   */
 
 /*!
- * CSSPlugin 3.12.5
+ * CSSPlugin 3.13.0
  * https://gsap.com
  *
- * Copyright 2008-2024, GreenSock. All rights reserved.
- * Subject to the terms at https://gsap.com/standard-license or for
- * Club GSAP members, the agreement issued with that membership.
+ * Copyright 2008-2025, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license
  * @author: Jack Doyle, jack@greensock.com
 */
 
 /*!
- * GSAP 3.12.5
+ * GSAP 3.13.0
  * https://gsap.com
  *
- * @license Copyright 2008-2024, GreenSock. All rights reserved.
- * Subject to the terms at https://gsap.com/standard-license or for
- * Club GSAP members, the agreement issued with that membership.
+ * @license Copyright 2008-2025, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license
  * @author: Jack Doyle, jack@greensock.com
 */
 
@@ -81,24 +99,4 @@ PERFORMANCE OF THIS SOFTWARE.
  * Released under MIT license <https://lodash.com/license>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- */
-
-
-/*!
- * Vue.js v2.7.16
- * (c) 2014-2023 Evan You
- * Released under the MIT License.
- */
-
-/*!
- * cookie
- * Copyright(c) 2012-2014 Roman Shtylman
- * Copyright(c) 2015 Douglas Christopher Wilson
- * MIT Licensed
- */
-
-/*!
- * vuex v3.6.2
- * (c) 2021 Evan You
- * @license MIT
  */
